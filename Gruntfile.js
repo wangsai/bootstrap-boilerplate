@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
 	/**
 	 * Load required Grunt tasks. These are installed based on the versions listed
-	 * in `package.json` when you do `npm install` in this directory.
+	 * in `package.json` when you do `npm i` in this directory.
 	 */
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-copy');
@@ -225,7 +225,7 @@ module.exports = function(grunt) {
 
 		/**
 		 * `recess` handles our LESS compilation and uglification automatically.
-		 * Only our `main.less` file is included in compilation; all other files
+		 * Only our `coer.less` file is included in compilation; all other files
 		 * must be imported from this file.
 		 */
 		recess: {
@@ -281,24 +281,6 @@ module.exports = function(grunt) {
 				eqnull: true
 			},
 			globals: {}
-		},
-
-		/**
-		 * `coffeelint` does the same as `jshint`, but for CoffeeScript.
-		 * CoffeeScript is not the default in ngBoilerplate, so we're just using
-		 * the defaults here.
-		 */
-		coffeelint: {
-			src: {
-				files: {
-					src: ['<%= app_files.coffee %>']
-				}
-			},
-			test: {
-				files: {
-					src: ['<%= app_files.coffeeunit %>']
-				}
-			}
 		},
 
 		/**

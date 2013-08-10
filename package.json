@@ -1,7 +1,7 @@
 {
 	"author": "Daniel Ditgens",
-	"name": "ditgens.net-site",
-	"version": "0.1.0",
+	"name": "bootstrap-boilerplate",
+	"version": "0.1.1",
 	"homepage": "http://www.ditgens.net",
 	"licenses": {
 		"type": "MIT",
@@ -9,8 +9,6 @@
 	},
 	"bugs": "https://www.ditgens.net/redmine",
 	"repository": {
-		"type": "git",
-		"url": "git@github.com:danielditgens/ditgens.net-site.git"
 	},
 	"dependencies": {},
 	"devDependencies": {

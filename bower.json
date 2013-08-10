@@ -1,6 +1,6 @@
 {
-  "name": "ng-boilerplate",
-  "version": "0.3.0",
+  "name": "bootstrap-boilerplate",
+  "version": "0.1.1",
   "devDependencies": {
     "bootstrap": "*"
   },
