@@ -41,8 +41,13 @@ module.exports = {
    */
   vendor_files: {
     js: [
+      'vendor/bootstrap/js/*.js',
+      'vendor/bootstrap/assets/js/*.js',
+      'vendor/bootstrap/dist/js/*.js'
     ],
     css: [
+      'vendor/bootstrap/assets/css/*.css',
+      'vendor/bootstrap/dist/css/*.css'
     ]
   },
 };

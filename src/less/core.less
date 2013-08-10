@@ -1,15 +1,6 @@
-/*!
- * Bootstrap v3.0.0
- *
- * Copyright 2013 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world by @mdo and @fat.
- */
-
 // Core variables and mixins
-@import "../../vendor/bootstrap/less/variables.less";
+// @import "../../vendor/bootstrap/less/variables.less";  // Moved to variables-ext.less
+@import "variables-ext.less";
 @import "../../vendor/bootstrap/less/mixins.less";
 
 // Reset
@@ -61,3 +52,5 @@
 // Utility classes
 @import "../../vendor/bootstrap/less/utilities.less"; // Has to be last to override when necessary
 @import "../../vendor/bootstrap/less/responsive-utilities.less";
+
+.sr-only { display: none; }
