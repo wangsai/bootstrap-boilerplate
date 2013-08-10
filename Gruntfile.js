@@ -149,13 +149,13 @@ module.exports = function(grunt) {
 				files: [{
 					src: ['<%= app_files.js %>'],
 					dest: '<%= build_dir %>/',
-					cwd: '.',
+					cwd: 'src/assets',
 					expand: true
 				}]
 			},
 			build_vendor: {
 				files: [{
-					src: ['<%= vendor_files.js %>', '<%= vendor_files.css %>'],
+					src: ['<%= vendor_files.js %>', '<%= vendor_files.css %>', '<%= vendor_files.img %>'],
 					dest: '<%= build_dir %>/',
 					cwd: '.',
 					expand: true

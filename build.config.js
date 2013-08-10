@@ -48,6 +48,9 @@ module.exports = {
     css: [
       'vendor/bootstrap/assets/css/*.css',
       'vendor/bootstrap/dist/css/*.css'
+    ],
+    img:[
+      'vendor/bootstrap/assets/ico/*.png'
     ]
   },
 };
