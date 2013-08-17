@@ -1,5 +1,4 @@
 Bootstrap Boilerplate
-
 ***
 
 ## Quick Start
